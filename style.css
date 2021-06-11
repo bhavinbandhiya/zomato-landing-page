@@ -21,7 +21,7 @@ body {
 }
 
 .navbar_logo {
-  width: 100px;
+  width: 100%;
 }
 
 .nav_item {
@@ -32,9 +32,10 @@ body {
   border:none;
   padding: 12px;
   border-radius: 6px;
+  cursor: pointer;
 }
 .nav_item:hover{
-    background:2px solid blue;
+    border:2px solid blue;
 }
 
 
